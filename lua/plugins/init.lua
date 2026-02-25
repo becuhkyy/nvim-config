@@ -36,4 +36,15 @@ return {
     event = "BufWritePre",
     opts = require "configs.conform",
   },
+
+  {
+    "williamboman/mason.nvim",
+    opts = require "configs.mason",
+  },
+
+  {
+    "seblyng/roslyn.nvim",
+    ft = { "cs", "razor" },
+    opts = require "configs.roslyn",
+  },
 }

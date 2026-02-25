@@ -12,6 +12,8 @@ local options = {
     "yaml",
     "tsx",
     "typescript",
+    "razor",
+    "c_sharp",
   },
 
   highlight = {
