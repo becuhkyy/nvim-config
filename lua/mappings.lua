@@ -16,3 +16,7 @@ end, { desc = "Git diff file" })
 map("n", "<leader>gp", function()
   require("gitsigns").preview_hunk()
 end, { desc = "Git preview hunk" })
+
+map("n", "<leader>gb", function()
+  require("gitsigns").toggle_current_line_blame()
+end, { desc = "Git toggle line blame" })
