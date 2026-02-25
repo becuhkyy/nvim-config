@@ -16,6 +16,13 @@ return {
   },
 
   {
+    "nvim-telescope/telescope.nvim",
+    config = function()
+      require "configs.telescope"
+    end,
+  },
+
+  {
     "stevearc/conform.nvim",
     event = "BufWritePre",
     opts = require "configs.conform",
